@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/logentries/le_ios'
   s.author = { 'Logentries' => 'support@logentries.com' }
   s.source = { :git => 'https://github.com/logentries/le_ios.git', :tag => "#{s.version}" }
-  s.source_files = 'lelib/*.{h,m}'
+  s.source_files = 'lelib/*.h'
   s.ios.deployment_target = '6.0'
   s.requires_arc = true
   s.license = 'MIT'
